@@ -8,6 +8,7 @@ Uso Geral
   - É preciso colocar um constructor com a chave, se a chave for inteiro então passa o argumento como String e converte de String para Integer se for String atribui directo.
   - Na Classe Pojo não usar tipos primitivos, usar a classe ex: Int (não) - Integer (sim)
   - O File excel deve estar dentro da pasta web
+  - Adicionar a biblioteca poi.jar no projecto.
   
 Usar com JSF
   - É preciso declarar o atributo serialVersionUID como ultimo. (77777777777)
