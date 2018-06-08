@@ -10,7 +10,7 @@ Uso Geral
   - O File excel deve estar dentro da pasta web
   - Adicionar a biblioteca poi.jar no projecto.
   
-Usar com JSF
+Usar com EJB
   - É preciso declarar o atributo serialVersionUID como ultimo. (77777777777)
    - como chamar
     1º ver exemplo do ficheiro IndexBean.java
@@ -19,7 +19,7 @@ Usar com JSF
                 <f:event type="preRenderView" listener="#{indexBean.init}"/>
        </f:metadata>
   
-Usar com JSP
+Usar sem EJB
   - usa uma interface GenericoDAO onde será incluido os metodos crud(create, update, delete...), e todos as entidades vão implementar essa interface.
   - como chamar
     * Na pagina Index incluir:
