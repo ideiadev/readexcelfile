@@ -11,7 +11,7 @@ Uso Geral
   - Adicionar a biblioteca poi.jar no projecto.
   
 Usar com EJB
-  - É preciso declarar o atributo serialVersionUID como ultimo. (77777777777)
+  - É preciso declarar os atributos serialVersionUID e lists como ultimo. (77777777777)
    - como chamar
     1º ver exemplo do ficheiro IndexBean.java
     2º chamar o Managed Bean. ex:
