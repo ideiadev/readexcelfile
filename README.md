@@ -20,7 +20,7 @@ Usar com EJB
        </f:metadata>
   
 Usar sem EJB
-  - usa uma interface GenericoDAO onde será incluido os metodos crud(create, update, delete...), e todos as entidades vão implementar essa interface.
+  - usa uma interface GenericoDAO onde será incluido os metodos crud(create, update, delete,findById), e todos as entidades vão implementar essa interface.
   - como chamar
     * Na pagina Index incluir:
     <%
